@@ -8,12 +8,12 @@ var Singleton = (function() {
       console.log("public");
    }
   return {
+      /*/
+      public_function: public_function,
+      /*/
       public_function: public_function,
       private_function: private_function
-      /*
-      public_function: public_function,
-      private_function: private_function
-      */
+      /**/
   };
 
 })();
